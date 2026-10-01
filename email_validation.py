@@ -7,7 +7,7 @@ class Emp(BaseModel):
     LinkedIn: AnyUrl
 
 def display_emp_info(e: Emp):
-    print('name:',e.name)
+    print('name:',e.empname
     print('email:',e.email)
     print('LinkedIn:',e.LinkedIn)
 
@@ -48,7 +48,7 @@ def display_info(e1: Emp):
     print('name:',e1.name)
     print('email:',e1.email)
 
-data = {'name': 'abc', 'email': 'abc12345@gmail.com'}
+data = {'name': 'efg', 'email': 'efg12345@gmail.com'}
 e1 = Emp(**data)
 display_info(e1)
 
